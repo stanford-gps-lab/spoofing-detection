@@ -1,0 +1,11 @@
+#--------------------------#
+#  .gitignore for Matlab   #
+#--------------------------#
+
+# ignore asv files
+*.asv
+# ignore .m~ files
+*.m~
+
+# ignore .DS_Store files (mac only)
+*.DS_Store
