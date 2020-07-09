@@ -7,3 +7,5 @@ When using code from this toolbox for academic work, we kindly ask for a citatio
 
 For algorithms and simulations on spatial processing based spoofing detection, see the "spatial_processing" folder. Please cite
 Rothmaier, F., Chen, Y.-H., Lo, S., & Walter, T. (2020). GNSS Spoof Detection through Spatial Processing. Submitted for Publication in NAVIGATION.
+
+For algorithms and simulatinos on metric combinations for spoofing detection, see the "metric_combinations" folder.
