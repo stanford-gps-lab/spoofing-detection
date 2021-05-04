@@ -12,7 +12,7 @@
 
 clear variables;
 close all;
-rng(1);
+rng(2); % for reproducability
 
 %% define constellation, decision threshold
 % set min, max number of satellites
@@ -34,7 +34,7 @@ elRand = pi / 2 * rand(Nmax, 1); % uniform random between 0 and pi
 elTrue = min(elRand, (pi/2-1e-4)*ones(Nmax, 1));
 
 % set DoA standard deviation
-sigDoA = pi/60 * ones(Nmax, 1);
+sigDoA = 12/180*pi * ones(Nmax, 1);
 
 % define DoA unit vectors
 ephemUVs = azel2enu(azTrue, elTrue);
