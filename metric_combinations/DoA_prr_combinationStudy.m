@@ -1,5 +1,22 @@
 %% Script to test different combinations of DoA and pseudorange residuals 
 %% for spoof detection
+%   
+%   Computes the detection power for detection tests using the Direction of
+%   Arrival (DoA) and pseudorange residual measurements. 
+%   Follows algorithms described in
+%   
+%   Rothmaier, F., Chen, Y., Lo, S., & Walter, T. (2021). A Framework for 
+%       GNSS Spoofing Detection through Combinations of Metrics. IEEE 
+%       Transactions on Aerospace and Electronic Systems. 
+%       https://doi.org/10.1109/TAES.2021.3082673
+%   
+%   Please cite the reference if using this material.
+%   
+%   This code and the repository it is in is provided free of charge under
+%   an MIT license. For questions please contact Fabian Rothmaier
+%   fabianr@stanford.edu.
+%   
+%   Written by Fabian Rothmaier, Stanford University, 2020
 
 clear variables;
 close all;
